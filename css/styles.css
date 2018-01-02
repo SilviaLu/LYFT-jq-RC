@@ -63,3 +63,38 @@ body {
 	border-radius: 10%;
 	color: white;
 }
+
+/* date.html */
+.bg-date{
+	padding-top: 200px;
+	padding-bottom: 0px;
+}
+.banderas{
+	width: 25px;
+	height: 16px;
+	border: none;
+}
+.dropdown-menu{
+	min-width: 51px;
+}
+
+.dropdown-item{
+	display: block;
+}
+
+.box-button{
+	padding-top: 0px;
+}
+
+#button-next{
+	width: 230px;
+}
+
+.menu{
+	display: inline;
+}
+
+.text{
+	padding-top: 20px;
+	font-size: 12px;
+}

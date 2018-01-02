@@ -1,18 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/styles.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/styles.css">
 	<title>LYFT</title>
 
 </head>
-<body class="bg-date">
+<body>
+	
+	<div class="container-flex-column bg-date text-center" >
+			<h3 class="title-date">Sing Up</h3>
+			<p class="">Join now for free ride credit</p>
+	</div>
+
+	<span class="text-center menu">
+		<div class="dropdown main">
+			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="banderas" src="../assets/img/banderas/peru.png" alt="Perú"></button>
+
+			<div class="dropdown-menu text-center " aria-labelledby="dropdownMenu2">
+				<button class="dropdown-item" type="button"><img class="banderas" src="../assets/img/banderas/venezuela.png" alt="Venezuela"></button>
+				<button class="dropdown-item" type="button"><img class="banderas" src="../assets/img/banderas/argentina.png" alt="Argentina"></button>
+				<button class="dropdown-item" type="button"><img class="banderas" src="../assets/img/banderas/paraguay.png" alt="Paraguay"></button>
+			</div>
+		</span>
+	
+		<input id="login" type="text" placeholder="Numero telefónico" maxlength="10">
+		<p class="text">We´ll send a text to verify your phone</p>
+		<div class=" text-center box-button">
+			<button id="button-next" disabled="true">NEXT</button>
+		</div>
+		
 
     
-  	<script src="vendors/jquery/jquery-3.2.1.min.js"></script>  
-		<script src="js/date.js"></script>
+		<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>  
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="../js/date.js"></script>
 </body>
 </html>
